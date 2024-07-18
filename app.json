@@ -6,10 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "useNextNotificationsApi": true,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "skyblue"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +22,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA4dmjxULQU_sMICrmK48zLsUO40_nrNGo"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b9c663d-756e-4d81-99eb-f1fd8bd8e92d"
+      }
     }
   }
 }
